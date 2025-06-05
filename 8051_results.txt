@@ -1,0 +1,13 @@
+VCD info: dumpfile benchmark_8051.vcd opened for output.
+Testbench: Starting 8051 Benchmark Simulation.
+Testbench: Reset released at time 20000 ns.
+---------------------------------------------------------------------
+8051 Benchmark Results:
+Final PC: 0x067e
+Outer counter (R0):   0
+Inner counter (R1):   2
+Branch counter (R2):   1
+Simulation time: 50020 ns
+Cycles executed: 5000
+---------------------------------------------------------------------
+testbench_8051.v:43: $finish called at 50020000 (1ps)
