@@ -8,27 +8,37 @@ This project is the final report code for the Microprocessor Application course 
 ## 內容簡介 (Project Overview)
 
 本專案內容涵蓋：
-- 微算機系統核心設計
-- 模組化設計與測試
-- 簡易自動化腳本
-- 完整測試環境配置
+- 8051 微處理器設計與模擬
+- MIPS 處理器設計與模擬
+- 模組化設計與測試平台
+- 基準測試與結果分析
+- 自動化腳本與模擬結果彙整
 
 This repository includes:
-- Microprocessor system core design
-- Modular design and unit testing
-- Simple automation scripts
-- Complete testbench setup
+- 8051 microprocessor design and simulation
+- MIPS processor design and simulation
+- Modular design and testbenches
+- Benchmarking and result analysis
+- Automation scripts and simulation outputs
 
 ---
 
-## 專案結構 (Project Structure)
+## 專案架構 (Project Structure)
 
 ```
-├── src/                  # Verilog 原始碼 (Verilog source code)
-├── sim/                  # 測試檔案與模擬腳本 (Simulation files & scripts)
-├── batch/                # 批次檔、自動化腳本 (Batch scripts for automation)
-├── doc/                  # 文件與報告 (Documentation & report)
-└── README.md             # 專案說明文件 (This file)
+.
+├── 8051/                  # 8051 處理器相關設計與檔案 (8051 processor related design and files)
+├── MIPS/                  # MIPS 處理器相關設計與檔案 (MIPS processor related design and files)
+├── .gitattributes         # Git 屬性設定 (Git attributes configuration)
+├── 8051_results.txt       # 8051 基準測試結果 (8051 benchmark results)
+├── README.md              # 專案說明文件 (This file)
+├── benchmark_8051.vcd     # 8051 測試波形檔 (8051 simulation waveform)
+├── mips_benchmark         # MIPS 基準測試檔 (MIPS benchmark file)
+├── pipeline_top.v         # MIPS Pipeline 架構頂層 (MIPS pipeline top module)
+├── processor_8051.v       # 8051 處理器主程式 (8051 processor main module)
+├── run_benchmarks.bat     # 自動化基準測試腳本 (Automation batch script for benchmarks)
+├── testbench.v            # 通用測試平台 (General testbench)
+└── testbench_8051.v       # 8051 測試平台 (8051 testbench)
 ```
 
 ---
